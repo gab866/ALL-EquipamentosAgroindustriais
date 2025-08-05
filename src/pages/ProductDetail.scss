@@ -1,0 +1,113 @@
+@import '../styles/variables.scss';
+
+.product-detail {
+  padding: $spacing-xl 0;
+
+  .back-link {
+    display: inline-block;
+    color: $primary-color;
+    text-decoration: none;
+    margin-bottom: $spacing-lg;
+    font-size: $font-size-base;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  .product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-xl;
+    align-items: start;
+  }
+
+  .product-image-container {
+    .product-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: $border-radius-lg;
+      box-shadow: $shadow-md;
+    }
+  }
+
+  .product-info {
+    h1 {
+      font-size: $font-size-3xl;
+      color: $primary-color;
+      margin-bottom: $spacing-md;
+    }
+
+    .product-description {
+      font-size: $font-size-lg;
+      color: $text-color;
+      margin-bottom: $spacing-lg;
+      line-height: 1.8;
+    }
+
+    .specifications {
+      h3 {
+        font-size: $font-size-xl;
+        color: $primary-color;
+        margin-bottom: $spacing-md;
+      }
+
+      .specs-grid {
+        display: grid;
+        gap: $spacing-sm;
+
+        .spec-item {
+          display: flex;
+          justify-content: space-between;
+          padding: $spacing-sm;
+          background-color: $light-gray;
+          border-radius: $border-radius;
+
+          .spec-label {
+            font-weight: bold;
+            color: $primary-color;
+          }
+
+          .spec-value {
+            color: $text-color;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .product-content {
+      grid-template-columns: 1fr;
+      gap: $spacing-lg;
+    }
+
+    .product-image-container {
+      .product-image {
+        height: 300px;
+      }
+    }
+
+    .product-info {
+      h1 {
+        font-size: $font-size-2xl;
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    padding: $spacing-lg 0;
+
+    .product-content {
+      gap: $spacing-md;
+    }
+
+    .product-image-container {
+      .product-image {
+        height: 250px;
+      }
+    }
+  }
+}
