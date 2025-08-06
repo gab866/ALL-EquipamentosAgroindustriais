@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Curva de ferro fundido D 200/240/320/380mm",
-    image: "/produto1.jpeg",
+    image: "/public/produto1.jpeg",
     description: "Curva de ferro fundido de alta resistência para sistemas de tubulação industrial.",
     specifications: {
       "Diâmetros": "200/240/320/380mm",

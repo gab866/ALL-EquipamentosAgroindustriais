@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://gab866.github.io/ALL-EquipamentosAgroindustriais/",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host localhost",
     "build": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
