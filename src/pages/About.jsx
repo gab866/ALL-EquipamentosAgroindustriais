@@ -51,7 +51,7 @@ const About = () => {
           <div className="contact-info">
             <div className="contact-item">
               <h3>Telefone</h3>
-              <p>(11) 9999-9999</p>
+              <p>(53) 9999-9999</p>
             </div>
             <div className="contact-item">
               <h3>Email</h3>
@@ -59,7 +59,7 @@ const About = () => {
             </div>
             <div className="contact-item">
               <h3>Endereço</h3>
-              <p>Rua dos Equipamentos, 123<br />São Paulo - SP</p>
+              <p>Rua ALL, 123<br />Pelotas - RS</p>
             </div>
           </div>
         </section>
