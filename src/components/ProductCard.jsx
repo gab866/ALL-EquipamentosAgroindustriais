@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
       <div className="product-content">
         <h3 className="product-name">{product.name}</h3>
         <Link to={`/produto/${product.id}`} className="btn">
-          Ver mais
+          Ver produto
         </Link>
       </div>
     </div>

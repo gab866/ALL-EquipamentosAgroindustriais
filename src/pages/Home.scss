@@ -2,7 +2,12 @@
 
 .home {
   .hero {
-    background: linear-gradient(135deg, $secondary-color 0%, lighten($secondary-color, 10%) 100%);
+    background: 
+      linear-gradient(rgba(174, 196, 163, 0.9), rgba(174, 196, 163, 0.9)),
+      url('/silos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     padding: $spacing-xl 0;
     text-align: center;
 
@@ -70,6 +75,7 @@
   @media (max-width: $mobile) {
     .hero {
       padding: $spacing-lg 0;
+      background-attachment: scroll;
 
       .hero-content {
         h1 {

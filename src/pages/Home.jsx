@@ -9,9 +9,9 @@ const Home = () => {
           <div className="hero-content">
             <h1>Bem-vindos à ALL Equipamentos Agroindustriais</h1>
             <p>
-              Sua parceira de confiança em equipamentos agrícolas de alta qualidade. 
-              Oferecemos soluções completas para o agronegócio, com produtos modernos 
-              e tecnologia de ponta para aumentar a produtividade do seu campo.
+              Especialistas em silos e secadores de grãos.<br/>
+              Qualidade e excelência ao serviço de armazenagem.<br/>
+              Confiabilidade e eficiência em soluções para o agronegócio.
             </p>
             <Link to="/catalogo" className="btn btn-cta">
               Ver Catálogo de Produtos

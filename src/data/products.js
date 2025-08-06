@@ -1,74 +1,74 @@
 export const products = [
   {
     id: 1,
-    name: "Trator Agrícola T-500",
+    name: "Curva de ferro fundido D 200/240/320/380mm",
     image: "/produto1.jpeg",
-    description: "Trator robusto ideal para trabalhos pesados no campo.",
+    description: "Curva de ferro fundido de alta resistência para sistemas de tubulação industrial.",
     specifications: {
-      "Potência": "150 HP",
-      "Combustível": "Diesel",
-      "Transmissão": "Manual 12x4",
-      "Peso": "4.500 kg"
+      "Diâmetros": "200/240/320/380mm",
+      "Material": "Ferro fundido",
+      "Aplicação": "Sistemas de tubulação",
+      "Resistência": "Alta pressão"
     }
   },
   {
     id: 2,
-    name: "Colheitadeira C-300",
+    name: "Válvula tipo Y D 200/240/320/380mm",
     image: "/produto2.jpeg",
-    description: "Colheitadeira eficiente para diversos tipos de grãos.",
+    description: "Válvula tipo Y em ferro fundido para controle de fluxo em tubulações industriais.",
     specifications: {
-      "Largura de corte": "6 metros",
-      "Capacidade do tanque": "8.000 litros",
-      "Motor": "280 HP",
-      "Sistema": "Automatizado"
+      "Diâmetros": "200/240/320/380mm",
+      "Material": "Ferro fundido",
+      "Tipo": "Válvula Y",
+      "Função": "Controle de fluxo"
     }
   },
   {
     id: 3,
-    name: "Pulverizador P-200",
-    image: "/produto1.jpeg",
-    description: "Pulverizador de alta precisão para aplicação de defensivos.",
+    name: "Amortecedor de linha D 200/240/320/380 mm",
+    image: "/produto3.png",
+    description: "Amortecedor de linha em ferro fundido para redução de vibrações e ruídos em sistemas de tubulação.",
     specifications: {
-      "Capacidade": "2.000 litros",
-      "Largura de trabalho": "24 metros",
-      "Bomba": "Centrífuga",
-      "GPS": "Incluído"
+      "Diâmetros": "200/240/320/380mm",
+      "Material": "Ferro fundido",
+      "Função": "Redução de vibrações",
+      "Aplicação": "Sistemas de tubulação"
     }
   },
   {
     id: 4,
-    name: "Plantadeira PL-400",
-    image: "/produto1.jpeg",
-    description: "Plantadeira de precisão para sementes diversas.",
+    name: "Cano flexível D 200/240/320/380 mm",
+    image: "/produto4.png",
+    description: "Cano flexível para sistemas de tubulação com alta flexibilidade e resistência.",
     specifications: {
-      "Linhas": "8 linhas",
-      "Espaçamento": "45-90 cm",
-      "Dosador": "Pneumático",
-      "Fertilizador": "Integrado"
+      "Diâmetros": "200/240/320/380mm",
+      "Material": "Borracha reforçada",
+      "Flexibilidade": "Alta",
+      "Aplicação": "Sistemas de tubulação"
     }
   },
   {
     id: 5,
-    name: "Arado A-150",
-    image: "/produto2.jpeg",
-    description: "Arado reversível para preparo do solo.",
+    name: "Presilha galvanizada D 200/240/320/380mm",
+    image: "/produto5.png",
+    description: "Presilha galvanizada para fixação segura de tubulações industriais.",
     specifications: {
-      "Sulcos": "4 sulcos",
-      "Largura": "1,4 metros",
-      "Material": "Aço temperado",
-      "Reversível": "Sim"
+      "Diâmetros": "200/240/320/380mm",
+      "Material": "Aço galvanizado",
+      "Função": "Fixação de tubos",
+      "Resistência": "Corrosão"
     }
   },
   {
     id: 6,
-    name: "Grade G-250",
-    image: "/produto2.jpeg",
-    description: "Grade niveladora para acabamento do solo.",
+    name: "Trifurcada pendular D 200/240/320/380mm",
+    image: "/produto6.png",
+    description: "Trifurcada pendular para divisão de fluxo em três direções com movimento pendular.",
     specifications: {
-      "Largura": "2,5 metros",
-      "Discos": "24 discos",
-      "Diâmetro": "20 polegadas",
-      "Peso": "850 kg"
+      "Diâmetros": "200/240/320/380mm",
+      "Material": "Ferro fundido",
+      "Saídas": "3 direções",
+      "Movimento": "Pendular"
     }
   }
 ];

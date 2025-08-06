@@ -7,9 +7,9 @@ const About = () => {
         <section className="about-hero">
           <h1>Sobre a ALL Equipamentos Agroindustriais</h1>
           <p className="hero-text">
-            Há mais de 20 anos no mercado, a ALL Equipamentos Agroindustriais é referência 
-            em soluções para o agronegócio, oferecendo equipamentos de alta qualidade e 
-            tecnologia de ponta para aumentar a produtividade no campo.
+            Com expertise em silos e secadores de grãos, fornecemos soluções completas para o setor agrícola
+            e industrial, focadas na eficiênciae durabilidade. Atuamos de forma personalizada para atender às 
+            necessidades específicas de nossos clientes, garantindo equipamentos de alta perfomance para o mercado nacional.
           </p>
         </section>
 
