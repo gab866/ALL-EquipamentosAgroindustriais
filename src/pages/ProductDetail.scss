@@ -47,6 +47,46 @@
       line-height: 1.8;
     }
 
+    .size-selector {
+      margin-bottom: $spacing-lg;
+
+      h3 {
+        font-size: $font-size-lg;
+        color: $primary-color;
+        margin-bottom: $spacing-sm;
+      }
+
+      .size-options {
+        display: flex;
+        gap: $spacing-sm;
+        flex-wrap: wrap;
+
+        .size-option {
+          padding: $spacing-sm $spacing-md;
+          border: 2px solid $secondary-color;
+          background: white;
+          color: $primary-color;
+          border-radius: $border-radius;
+          cursor: pointer;
+          font-size: $font-size-base;
+          font-weight: 500;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background: $secondary-color;
+            color: $primary-color;
+            transform: translateY(-2px);
+          }
+
+          &.active {
+            background: $primary-color;
+            color: white;
+            border-color: $primary-color;
+          }
+        }
+      }
+    }
+
     .specifications {
       h3 {
         font-size: $font-size-xl;

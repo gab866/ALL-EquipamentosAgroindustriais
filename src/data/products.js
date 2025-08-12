@@ -1,74 +1,147 @@
 export const products = [
   {
     id: 1,
-    name: "Curva de ferro fundido D 200/240/320/380mm",
-    image: "/produto1.jpeg",
-    description: "Curva de ferro fundido de alta resistência para sistemas de tubulação industrial.",
+    name: "Arruela côncava M 10",
+    image: "/arruelaconcava.jpeg",
+    description: "Arruela côncava M 10 em aço galvanizado para fixação e vedação.",
     specifications: {
-      "Diâmetros": "200/240/320/380mm",
-      "Material": "Ferro fundido",
-      "Aplicação": "Sistemas de tubulação",
-      "Resistência": "Alta pressão"
+      "Rosca": "M 10",
+      "Material": "Aço galvanizado",
+      "Tipo": "Côncava",
+      "Aplicação": "Fixação e vedação"
     }
   },
   {
     id: 2,
-    name: "Válvula tipo Y D 200/240/320/380mm",
-    image: "/produto2.jpeg",
-    description: "Válvula tipo Y em ferro fundido para controle de fluxo em tubulações industriais.",
+    name: "Anel",
+    image: "/anel-200.jpeg",
+    description: "Anel em ferro fundido para vedação e fixação em sistemas de tubulação industrial.",
     specifications: {
-      "Diâmetros": "200/240/320/380mm",
       "Material": "Ferro fundido",
-      "Tipo": "Válvula Y",
-      "Função": "Controle de fluxo"
-    }
+      "Função": "Vedação e fixação",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "200mm", image: "/anel-200.jpeg" },
+      { diameter: "240mm", image: "/anel-240.jpeg" },
+      { diameter: "320mm", image: "/anel-320.jpeg" },
+      { diameter: "380mm", image: "/anel-380.jpeg" }
+    ]
   },
   {
     id: 3,
-    name: "Amortecedor de linha D 200/240/320/380 mm",
-    image: "/produto3.png",
+    name: "Amortecedor de linha",
+    image: "/amortecedor-150.jpeg",
     description: "Amortecedor de linha em ferro fundido para redução de vibrações e ruídos em sistemas de tubulação.",
     specifications: {
-      "Diâmetros": "200/240/320/380mm",
       "Material": "Ferro fundido",
       "Função": "Redução de vibrações",
       "Aplicação": "Sistemas de tubulação"
-    }
+    },
+    sizes: [
+      { diameter: "150mm", image: "/amortecedor-150.jpeg" },
+      { diameter: "200mm", image: "/amortecedor-200.jpeg" },
+      { diameter: "240mm", image: "/amortecedor-240.jpeg" },
+      { diameter: "320mm", image: "/amortecedor-320.jpeg" }
+    ]
   },
   {
     id: 4,
-    name: "Cano flexível D 200/240/320/380 mm",
-    image: "/produto4.png",
-    description: "Cano flexível para sistemas de tubulação com alta flexibilidade e resistência.",
+    name: "Abraçadeira",
+    image: "/abracadeira-200.jpeg",
+    description: "Abraçadeira em aço galvanizado para fixação e suporte de tubulações industriais.",
     specifications: {
-      "Diâmetros": "200/240/320/380mm",
-      "Material": "Borracha reforçada",
-      "Flexibilidade": "Alta",
+      "Material": "Aço galvanizado",
+      "Função": "Fixação e suporte",
       "Aplicação": "Sistemas de tubulação"
-    }
+    },
+    sizes: [
+      { diameter: "200mm", image: "/abracadeira-200.jpeg" },
+      { diameter: "240mm", image: "/abracadeira-240.jpeg" },
+      { diameter: "320mm", image: "/abracadeira-320.jpeg" },
+      { diameter: "380mm", image: "/abracadeira-380.jpeg" }
+    ]
   },
   {
     id: 5,
-    name: "Presilha galvanizada D 200/240/320/380mm",
-    image: "/produto5.png",
-    description: "Presilha galvanizada para fixação segura de tubulações industriais.",
+    name: "Cone",
+    image: "/cone1.jpeg",
+    description: "Cone em ferro fundido para redução de diâmetro em sistemas de tubulação industrial.",
     specifications: {
-      "Diâmetros": "200/240/320/380mm",
-      "Material": "Aço galvanizado",
-      "Função": "Fixação de tubos",
-      "Resistência": "Corrosão"
-    }
+      "Material": "Ferro fundido",
+      "Função": "Redução de diâmetro",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "200mm/150mm", image: "/cone1.jpeg" },
+      { diameter: "320mm/240mm", image: "/cone2.jpeg" }
+    ]
   },
   {
     id: 6,
-    name: "Trifurcada pendular D 200/240/320/380mm",
-    image: "/produto6.png",
-    description: "Trifurcada pendular para divisão de fluxo em três direções com movimento pendular.",
+    name: "Curva 30°",
+    image: "/curva30-150.jpeg",
+    description: "Curva de 30 graus em ferro fundido para mudança de direção em sistemas de tubulação industrial.",
     specifications: {
-      "Diâmetros": "200/240/320/380mm",
       "Material": "Ferro fundido",
-      "Saídas": "3 direções",
-      "Movimento": "Pendular"
-    }
+      "Ângulo": "30 graus",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "150mm", image: "/curva30-150.jpeg" },
+      { diameter: "200mm", image: "/curva30-200.jpeg" },
+      { diameter: "240mm", image: "/curva30-240.jpeg" },
+      { diameter: "320mm", image: "/curva30-320.jpeg" },
+      { diameter: "380mm", image: "/curva30-380.jpeg" }
+    ]
+  },
+  {
+    id: 7,
+    name: "Bifurcada 45°",
+    image: "/bifurcada-150.jpeg",
+    description: "Bifurcada de 45 graus em ferro fundido para divisão de fluxo em duas direções.",
+    specifications: {
+      "Material": "Ferro fundido",
+      "Ângulo": "45 graus",
+      "Saídas": "2 direções",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "150mm", image: "/bifurcada-150.jpeg" },
+      { diameter: "200mm", image: "/bifurcada-200.jpeg" },
+      { diameter: "240mm", image: "/bifurcada-240.jpeg" },
+      { diameter: "320mm", image: "/bifurcada-320.jpeg" }
+    ]
+  },
+  {
+    id: 8,
+    name: "Bifurcada 50°",
+    image: "/bifurcada50-240.jpeg",
+    description: "Bifurcada de 50 graus em ferro fundido para divisão de fluxo em duas direções.",
+    specifications: {
+      "Material": "Ferro fundido",
+      "Ângulo": "50 graus",
+      "Saídas": "2 direções",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "240mm", image: "/bifurcada50-240.jpeg" },
+      { diameter: "320mm", image: "/bifurcada50-320.jpeg" }
+    ]
+  },
+  {
+    id: 9,
+    name: "Amortecedor de linha tubular",
+    image: "/amortecedordelinha.jpeg",
+    description: "Amortecedor de linha tubular em ferro fundido para redução de vibrações em sistemas tubulares.",
+    specifications: {
+      "Material": "Ferro fundido",
+      "Função": "Redução de vibrações",
+      "Tipo": "Tubular",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "200mm", image: "/amortecedordelinha.jpeg" }
+    ]
   }
 ];
