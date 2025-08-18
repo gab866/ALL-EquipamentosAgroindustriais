@@ -17,6 +17,31 @@
     margin-bottom: $spacing-xl;
   }
 
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $spacing-xl;
+  }
+
+  .search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    font-size: $font-size-base;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+
+    &:focus {
+      border-color: $primary-color;
+    }
+
+    &::placeholder {
+      color: #999;
+    }
+  }
+
   .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
