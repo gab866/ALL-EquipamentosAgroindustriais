@@ -143,5 +143,22 @@ export const products = [
     sizes: [
       { diameter: "200mm", image: "/amortecedordelinha.jpeg" }
     ]
+  },
+  {
+    id: 10,
+    name: "Entrada dupla Y 90°",
+    image: "/entrada-dupla-240.jpeg",
+    description: "Entrada dupla Y de 90 graus em ferro fundido para junção de duas tubulações.",
+    specifications: {
+      "Material": "Ferro fundido",
+      "Ângulo": "90 graus",
+      "Tipo": "Entrada dupla Y",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "240mm", image: "/entrada-dupla-240.jpeg" },
+      { diameter: "320mm", image: "/entrada-dupla-320.jpeg" }
+    ]
   }
+  
 ];
