@@ -159,6 +159,16 @@ export const products = [
       { diameter: "240mm", image: "/entrada-dupla-240.jpeg" },
       { diameter: "320mm", image: "/entrada-dupla-320.jpeg" }
     ]
+  },
+  {
+    id: 11,
+    name: "Rolete de correia transportadora",
+    image: "/roletedecorreia.jpeg",
+    description: "Rolete em aço carbono para aplicações industriais.",
+    specifications: {
+      "Material": "Aço carbono",
+      "Função": "Suporte e movimentação",
+      "Aplicação": "Sistemas industriais"
+    }
   }
-  
-];
+  ];
