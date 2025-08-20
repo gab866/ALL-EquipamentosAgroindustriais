@@ -163,7 +163,7 @@ export const products = [
   {
     id: 11,
     name: "Rolete de correia transportadora",
-    image: "/roletedecorreia.jpeg",
+    image: "/roletedecorreia2.jpeg",
     description: "Rolete em aço carbono para aplicações industriais.",
     specifications: {
       "Material": "Aço carbono",
