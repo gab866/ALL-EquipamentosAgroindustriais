@@ -170,5 +170,32 @@ export const products = [
       "Função": "Suporte e movimentação",
       "Aplicação": "Sistemas industriais"
     }
+  },
+  {
+    id: 12,
+    name: "Trifurcada",
+    image: "/trifurcada-200.jpeg",
+    description: "Trifurcada em ferro fundido para divisão de fluxo em três direções.",
+    specifications: {
+      "Material": "Ferro fundido",
+      "Saídas": "3 direções",
+      "Aplicação": "Sistemas de tubulação"
+    },
+    sizes: [
+      { diameter: "200mm", image: "/trifurcada-200.jpeg" },
+      { diameter: "240mm", image: "/trifurcada-240.jpeg" },
+      { diameter: "320mm", image: "/trifurcada-320.jpeg" }
+    ]
+  },
+  {
+    id: 13,
+    name: "Amortecedor",
+    image: "/amortecedor.jpeg",
+    description: "Amortecedor em ferro fundido para redução de vibrações em sistemas industriais.",
+    specifications: {
+      "Material": "Ferro fundido",
+      "Função": "Redução de vibrações",
+      "Aplicação": "Sistemas industriais"
+    }
   }
   ];
