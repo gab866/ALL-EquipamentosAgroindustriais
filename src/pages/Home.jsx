@@ -113,15 +113,15 @@ const Home = () => {
                 <h2>Nossa Frota</h2>
                 <div className="photos-grid">
                   <div className="photo-item">
-                    <div className="placeholder-img">Foto do Caminhão 1</div>
+                    <div className="placeholder-img">Foto teste</div>
                     <p>Entregas rápidas e seguras</p>
                   </div>
                   <div className="photo-item">
-                    <div className="placeholder-img">Foto do Caminhão 2</div>
+                    <div className="placeholder-img">Foto teste</div>
                     <p>Frota própria moderna</p>
                   </div>
                   <div className="photo-item">
-                    <div className="placeholder-img">Foto do Caminhão 3</div>
+                    <div className="placeholder-img">Foto teste</div>
                     <p>Cobertura em toda região</p>
                   </div>
                 </div>
