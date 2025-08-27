@@ -51,7 +51,7 @@ const About = () => {
           <div className="contact-info">
             <div className="contact-item">
               <h3>Telefone</h3>
-              <p>(53) 9999-9999</p>
+              <p>(53) 999459-9999</p>
             </div>
             <div className="contact-item">
               <h3>Email</h3>

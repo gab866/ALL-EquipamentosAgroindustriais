@@ -254,6 +254,109 @@
       }
     }
 
+    .company-fleet {
+      padding: $spacing-xl 0;
+      background: linear-gradient(135deg, lighten($light-gray, 2%) 0%, $light-gray 100%);
+      margin: $spacing-xl 0;
+      border-radius: $border-radius-lg;
+
+      .fleet-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: $spacing-xl;
+        align-items: start;
+      }
+
+      .company-info {
+        h2 {
+          font-size: $font-size-2xl;
+          color: $primary-color;
+          margin-bottom: $spacing-lg;
+          text-align: center;
+        }
+
+        .info-content {
+          display: flex;
+          flex-direction: column;
+          gap: $spacing-md;
+
+          .info-item {
+            background: white;
+            padding: $spacing-md;
+            border-radius: $border-radius-md;
+            box-shadow: $shadow-sm;
+            border-left: 4px solid $secondary-color;
+            transition: transform 0.3s ease;
+
+            &:hover {
+              transform: translateX(5px);
+            }
+
+            h3 {
+              font-size: $font-size-lg;
+              color: $primary-color;
+              margin-bottom: $spacing-xs;
+            }
+
+            p {
+              color: $text-color;
+              line-height: 1.6;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .fleet-photos {
+        h2 {
+          font-size: $font-size-2xl;
+          color: $primary-color;
+          margin-bottom: $spacing-lg;
+          text-align: center;
+        }
+
+        .photos-grid {
+          display: flex;
+          flex-direction: column;
+          gap: $spacing-md;
+
+          .photo-item {
+            background: white;
+            border-radius: $border-radius-lg;
+            overflow: hidden;
+            box-shadow: $shadow-md;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover {
+              transform: translateY(-5px);
+              box-shadow: $shadow-lg;
+            }
+
+            .placeholder-img {
+              width: 100%;
+              height: 200px;
+              background: linear-gradient(135deg, $secondary-color 0%, lighten($secondary-color, 15%) 100%);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: $primary-color;
+              font-weight: 600;
+              font-size: $font-size-lg;
+            }
+
+            p {
+              padding: $spacing-md;
+              margin: 0;
+              text-align: center;
+              color: $primary-color;
+              font-weight: 500;
+              background: linear-gradient(135deg, $secondary-color 0%, lighten($secondary-color, 5%) 100%);
+            }
+          }
+        }
+      }
+    }
+
     @keyframes float {
       0%, 100% { transform: translateY(0px) rotate(0deg); }
       50% { transform: translateY(-20px) rotate(180deg); }
@@ -306,6 +409,20 @@
       .contact-section .contact-info {
         grid-template-columns: 1fr;
         gap: $spacing-md;
+      }
+
+      .company-fleet {
+        margin: $spacing-lg 0;
+        padding: $spacing-lg 0;
+
+        .fleet-container {
+          grid-template-columns: 1fr;
+          gap: $spacing-lg;
+        }
+
+        .fleet-photos .photos-grid .photo-item .placeholder-img {
+          height: 150px;
+        }
       }
     }
   }

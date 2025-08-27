@@ -85,6 +85,50 @@ const Home = () => {
             </div>
           </div>
 
+          <section className="company-fleet">
+            <div className="fleet-container">
+              <div className="company-info">
+                <h2>Nossa Empresa</h2>
+                <div className="info-content">
+                  <div className="info-item">
+                    <h3>Experiência</h3>
+                    <p>Mais de 15 anos no mercado de equipamentos agroindustriais, atendendo produtores rurais em todo o Rio Grande do Sul.</p>
+                  </div>
+                  <div className="info-item">
+                    <h3>Cobertura</h3>
+                    <p>Entregas em toda a região Sul, com frota própria garantindo pontualidade e segurança no transporte.</p>
+                  </div>
+                  <div className="info-item">
+                    <h3>Especialização</h3>
+                    <p>Focamos em silos, secadores de grãos e equipamentos para armazenagem, oferecendo soluções completas.</p>
+                  </div>
+                  <div className="info-item">
+                    <h3>Compromisso</h3>
+                    <p>Garantimos suporte técnico especializado e peças de reposição para todos os equipamentos comercializados.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="fleet-photos">
+                <h2>Nossa Frota</h2>
+                <div className="photos-grid">
+                  <div className="photo-item">
+                    <div className="placeholder-img">Foto do Caminhão 1</div>
+                    <p>Entregas rápidas e seguras</p>
+                  </div>
+                  <div className="photo-item">
+                    <div className="placeholder-img">Foto do Caminhão 2</div>
+                    <p>Frota própria moderna</p>
+                  </div>
+                  <div className="photo-item">
+                    <div className="placeholder-img">Foto do Caminhão 3</div>
+                    <p>Cobertura em toda região</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <div className="contact-section">
             <h2>Entre em Contato</h2>
             <p className="contact-subtitle">Estamos prontos para atender suas necessidades</p>
@@ -92,7 +136,7 @@ const Home = () => {
               <div className="contact-item">
                 <div className="contact-icon">📞</div>
                 <h3>Telefone</h3>
-                <p>(53) 9999-9999</p>
+                <p>(53) 9994349-9999</p>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">✉️</div>
