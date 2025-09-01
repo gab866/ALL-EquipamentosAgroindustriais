@@ -208,4 +208,57 @@ export const products = [
       Aplicação: "Sistemas industriais",
     },
   },
+  {
+    id: 14,
+    name: "Mancal de peneira",
+    image: "/mancaldepeneira.jpeg",
+    description:
+      "Mancal de peneira em ferro fundido para suporte e movimentação de peneiras industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Suporte e movimentação",
+      Aplicação: "Peneiras industriais",
+    },
+  },
+  {
+    id: 15,
+    name: "Excêntrico peneira",
+    image: "/excentricopeneira.jpeg",
+    description:
+      "Excêntrico de peneira em ferro fundido para movimentação vibratória de peneiras industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Movimentação vibratória",
+      Aplicação: "Peneiras industriais",
+    },
+  },
+  {
+    id: 16,
+    name: "Esferas de borracha",
+    image: "/esferasdeborracha.jpeg",
+    description:
+      "Esferas de borracha para limpeza e desobstrução de peneiras industriais.",
+    specifications: {
+      Material: "Borracha",
+      Função: "Limpeza e desobstrução",
+      Aplicação: "Peneiras industriais",
+    },
+  },
+  {
+    id: 17,
+    name: "Helicóide",
+    image: "/helicoide-300x076x300.jpeg",
+    description:
+      "Helicóide em ferro fundido para transporte de materiais em sistemas industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Transporte de materiais",
+      Aplicação: "Sistemas industriais",
+    },
+    sizes: [
+      { diameter: "Ø 300 x 076 x 300", image: "/helicoide-300x076x300.jpeg" },
+      { diameter: "Ø 300 x 60 x 300", image: "/helicoide-300x60x300.jpeg" },
+      { diameter: "Ø 250 x 60 x 250", image: "/helicoide-250x60x250.jpeg" },
+    ],
+  },
 ];
