@@ -122,19 +122,19 @@ export const products = [
   },
   {
     id: 8,
-    name: "Bifurcada 50°",
-    image: "/bifurcada50-240.jpeg",
+    name: "Bifurcada 90°",
+    image: "/bifurcada90-240.jpeg",
     description:
-      "Bifurcada de 50 graus em ferro fundido para divisão de fluxo em duas direções.",
+      "Bifurcada de 90 graus em ferro fundido para divisão de fluxo em duas direções.",
     specifications: {
       Material: "Ferro fundido",
-      Ângulo: "50 graus",
+      Ângulo: "90 graus",
       Saídas: "2 direções",
       Aplicação: "Sistemas de tubulação",
     },
     sizes: [
-      { diameter: "240mm", image: "/bifurcada50-240.jpeg" },
-      { diameter: "320mm", image: "/bifurcada50-320.jpeg" },
+      { diameter: "240mm", image: "/bifurcada90-240.jpeg" },
+      { diameter: "320mm", image: "/bifurcada90-320.jpeg" },
     ],
   },
   {
@@ -260,5 +260,30 @@ export const products = [
       { diameter: "Ø 300 x 60 x 300", image: "/helicoide-300x60x300.jpeg" },
       { diameter: "Ø 250 x 60 x 250", image: "/helicoide-250x60x250.jpeg" },
     ],
+  },
+  {
+    id: 18,
+    name: "Caneca plástica",
+    image: "/canecaplastica.jpeg",
+    description:
+      "Caneca plástica resistente para uso industrial e laboratorial.",
+    specifications: {
+      Material: "Plástico",
+      Função: "Medição e transporte",
+      Aplicação: "Uso industrial",
+    },
+  },
+  {
+    id: 19,
+    name: "Luva união tubo",
+    image: "/luvauniaotubo-240.jpeg",
+    description:
+      "Luva união em ferro fundido para conexão de tubulações industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Conexão de tubos",
+      Aplicação: "Sistemas de tubulação",
+    },
+    sizes: [{ diameter: "240mm", image: "/luvauniaotubo-240.jpeg" }],
   },
 ];
