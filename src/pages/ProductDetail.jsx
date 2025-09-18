@@ -33,6 +33,18 @@ const ProductDetail = () => {
         <div className="product-content">
           <div className="product-image-container">
             <img src={currentImage} alt={product.name} className="product-image" />
+            {selectedSize?.additionalImages && (
+              <div className="additional-images">
+                <div className="thumbnail" onClick={() => setCurrentImage(selectedSize.image)}>
+                  <img src={selectedSize.image} alt={`${product.name} principal`} />
+                </div>
+                {selectedSize.additionalImages.map((img, index) => (
+                  <div key={index} className="thumbnail" onClick={() => setCurrentImage(img)}>
+                    <img src={img} alt={`${product.name} ${index + 2}`} />
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
           
           <div className="product-info">

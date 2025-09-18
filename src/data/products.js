@@ -42,10 +42,42 @@ export const products = [
       Aplicação: "Sistemas de tubulação",
     },
     sizes: [
-      { diameter: "150mm", image: "/amortecedor-150.jpeg" },
-      { diameter: "200mm", image: "/amortecedor-200.jpeg" },
-      { diameter: "240mm", image: "/amortecedor-240.jpeg" },
-      { diameter: "320mm", image: "/amortecedor-320.jpeg" },
+      {
+        diameter: "150mm",
+        image: "/amortecedor-150.jpeg",
+        additionalImages: [
+          "/amortecedor-150-2.jpeg",
+          "/amortecedor-150-3.jpeg",
+          "/amortecedor-150-4.jpeg",
+        ],
+      },
+      {
+        diameter: "200mm",
+        image: "/amortecedor-200.jpeg",
+        additionalImages: [
+          "/amortecedor-200-2.jpeg",
+          "/amortecedor-200-3.jpeg",
+          "/amortecedor-200-4.jpeg",
+        ],
+      },
+      {
+        diameter: "240mm",
+        image: "/amortecedor-240.jpeg",
+        additionalImages: [
+          "/amortecedor-240-2.jpeg",
+          "/amortecedor-240-3.jpeg",
+          "/amortecedor-240-4.jpeg",
+        ],
+      },
+      {
+        diameter: "320mm",
+        image: "/amortecedor-320.jpeg",
+        additionalImages: [
+          "/amortecedor-320-2.jpeg",
+          "/amortecedor-320-4.jpeg",
+          "/amortecedor-320-3.jpeg",
+        ],
+      },
     ],
   },
   {
