@@ -146,10 +146,42 @@ export const products = [
       Aplicação: "Sistemas de tubulação",
     },
     sizes: [
-      { diameter: "150mm", image: "/bifurcada-150.jpeg" },
-      { diameter: "200mm", image: "/bifurcada-200.jpeg" },
-      { diameter: "240mm", image: "/bifurcada-240.jpeg" },
-      { diameter: "320mm", image: "/bifurcada-320.jpeg" },
+      {
+        diameter: "150mm",
+        image: "/bifurcada-150.jpeg",
+        additionalImages: [
+          "/bifurcada-150-2.jpeg",
+          "/bifurcada-150-3.jpeg",
+          "/bifurcada-150-4.jpeg",
+        ],
+      },
+      {
+        diameter: "200mm",
+        image: "/bifurcada-200.jpeg",
+        additionalImages: [
+          "/bifurcada-200-2.jpeg",
+          "/bifurcada-200-3.jpeg",
+          "/bifurcada-200-4.jpeg",
+        ],
+      },
+      {
+        diameter: "240mm",
+        image: "/bifurcada-240.jpeg",
+        additionalImages: [
+          "/bifurcada-240-2.jpeg",
+          "/bifurcada-240-3.jpeg",
+          "/bifurcada-240-4.jpeg",
+        ],
+      },
+      {
+        diameter: "320mm",
+        image: "/bifurcada-320.jpeg",
+        additionalImages: [
+          "/bifurcada-320-2.jpeg",
+          "/bifurcada-320-3.jpeg",
+          "/bifurcada-320-4.jpeg",
+        ],
+      },
     ],
   },
   {
@@ -165,8 +197,42 @@ export const products = [
       Aplicação: "Sistemas de tubulação",
     },
     sizes: [
-      { diameter: "240mm", image: "/bifurcada90-240.jpeg" },
-      { diameter: "320mm", image: "/bifurcada90-320.jpeg" },
+      {
+        diameter: "150mm",
+        image: "/bifurcada90-150.jpeg",
+        additionalImages: [
+          "/bifurcada90-150-2.jpeg",
+          "/bifurcada90-150-3.jpeg",
+          "/bifurcada90-150-4.jpeg",
+        ],
+      },
+      {
+        diameter: "200mm",
+        image: "/bifurcada90-200.jpeg",
+        additionalImages: [
+          "/bifurcada90-200-2.jpeg",
+          "/bifurcada90-200-3.jpeg",
+          "/bifurcada90-200-4.jpeg",
+        ],
+      },
+      {
+        diameter: "240mm",
+        image: "/bifurcada90-240.jpeg",
+        additionalImages: [
+          "/bifurcada90-240-2.jpeg",
+          "/bifurcada90-240-3.jpeg",
+          "/bifurcada90-240-4.jpeg",
+        ],
+      },
+      {
+        diameter: "320mm",
+        image: "/bifurcada90-320.jpeg",
+        additionalImages: [
+          "/bifurcada90-320-2.jpeg",
+          "/bifurcada90-320-3.jpeg",
+          "/bifurcada90-320-4.jpeg",
+        ],
+      },
     ],
   },
   {
