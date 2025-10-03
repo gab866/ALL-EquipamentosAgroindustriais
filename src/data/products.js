@@ -289,9 +289,30 @@ export const products = [
       Aplicação: "Sistemas de tubulação",
     },
     sizes: [
-      { diameter: "200mm", image: "/trifurcada-200.jpeg" },
-      { diameter: "240mm", image: "/trifurcada-240.jpeg" },
-      { diameter: "320mm", image: "/trifurcada-320.jpeg" },
+      {
+        diameter: "200mm",
+        image: "/trifurcada-200.jpeg",
+        additionalImages: [
+          "/trifurcada-200-2.jpeg",
+          "/trifurcada-200-3.jpeg",
+        ],
+      },
+      {
+        diameter: "240mm",
+        image: "/trifurcada-240.jpeg",
+        additionalImages: [
+          "/trifurcada-240-2.jpeg",
+          "/trifurcada-240-3.jpeg",
+        ],
+      },
+      {
+        diameter: "320mm",
+        image: "/trifurcada-320.jpeg",
+        additionalImages: [
+          "/trifurcada-320-2.jpeg",
+          "/trifurcada-320-3.jpeg",
+        ],
+      },
     ],
   },
   {
@@ -383,5 +404,82 @@ export const products = [
       Aplicação: "Sistemas de tubulação",
     },
     sizes: [{ diameter: "240mm", image: "/luvauniaotubo-240.jpeg" }],
+  },
+  {
+    id: 20,
+    name: "Amortecedor Autolimpante",
+    image: "/amortecedorautolimpante-240.jpeg",
+    description:
+      "Amortecedor autolimpante em ferro fundido com sistema de limpeza automática para redução de vibrações.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Redução de vibrações e autolimpeza",
+      Aplicação: "Sistemas de tubulação",
+    },
+    sizes: [
+      {
+        diameter: "240mm",
+        image: "/amortecedorautolimpante-240.jpeg",
+        additionalImages: [
+          "/amortecedorautolimpante-240-2.jpeg",
+          "/amortecedorautolimpante-240-3.jpeg",
+          "/amortecedorautolimpante-240-4.jpeg",
+        ],
+      },
+      {
+        diameter: "320mm",
+        image: "/amortecedorautolimpante-320.jpeg",
+        additionalImages: [
+          "/amortecedorautolimpante-320-2.jpeg",
+          "/amortecedorautolimpante-320-3.jpeg",
+          "/amortecedorautolimpante-320-4.jpeg",
+        ],
+      },
+    ],
+  },
+  {
+    id: 21,
+    name: "Grelhas",
+    image: "/grelhas.jpeg",
+    description:
+      "Grelhas em ferro fundido para filtragem e separação de materiais em sistemas industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Filtragem e separação",
+      Aplicação: "Sistemas industriais",
+    },
+  },
+  {
+    id: 22,
+    name: "Peneiras",
+    image: "/peneiras.jpeg",
+    description:
+      "Peneiras industriais para separação e classificação de materiais granulados.",
+    specifications: {
+      Material: "Aço inoxidável",
+      Função: "Separação e classificação",
+      Aplicação: "Processamento industrial",
+    },
+    sizes: [
+      {
+        diameter: "Padrão",
+        image: "/peneiras.jpeg",
+        additionalImages: [
+          "/peneiras-2.jpeg",
+        ],
+      },
+    ],
+  },
+  {
+    id: 23,
+    name: "Suporte para cabo de tubulação",
+    image: "/suportecabotubulacao.jpeg",
+    description:
+      "Suporte em aço galvanizado para fixação e sustentação de cabos de tubulação industrial.",
+    specifications: {
+      Material: "Aço galvanizado",
+      Função: "Fixação e sustentação",
+      Aplicação: "Sistemas de tubulação",
+    },
   },
 ];
