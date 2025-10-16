@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    name: "Arruela côncava M 10",
+    name: "Arruela côncava",
     image: "/arruelaconcava.jpeg",
     description:
       "Arruela côncava M 10 em aço galvanizado para fixação e vedação.",
@@ -292,26 +292,17 @@ export const products = [
       {
         diameter: "200mm",
         image: "/trifurcada-200.jpeg",
-        additionalImages: [
-          "/trifurcada-200-2.jpeg",
-          "/trifurcada-200-3.jpeg",
-        ],
+        additionalImages: ["/trifurcada-200-2.jpeg", "/trifurcada-200-3.jpeg"],
       },
       {
         diameter: "240mm",
         image: "/trifurcada-240.jpeg",
-        additionalImages: [
-          "/trifurcada-240-2.jpeg",
-          "/trifurcada-240-3.jpeg",
-        ],
+        additionalImages: ["/trifurcada-240-2.jpeg", "/trifurcada-240-3.jpeg"],
       },
       {
         diameter: "320mm",
         image: "/trifurcada-320.jpeg",
-        additionalImages: [
-          "/trifurcada-320-2.jpeg",
-          "/trifurcada-320-3.jpeg",
-        ],
+        additionalImages: ["/trifurcada-320-2.jpeg", "/trifurcada-320-3.jpeg"],
       },
     ],
   },
@@ -464,9 +455,7 @@ export const products = [
       {
         diameter: "Padrão",
         image: "/peneiras.jpeg",
-        additionalImages: [
-          "/peneiras-2.jpeg",
-        ],
+        additionalImages: ["/peneiras-2.jpeg"],
       },
     ],
   },
@@ -481,5 +470,47 @@ export const products = [
       Função: "Fixação e sustentação",
       Aplicação: "Sistemas de tubulação",
     },
+  },
+  {
+    id: 24,
+    name: "Bifurcada 50°",
+    image: "/bifurcada50-200.jpeg",
+    description:
+      "Bifurcada de 50 graus em ferro fundido para divisão de fluxo em duas direções.",
+    specifications: {
+      Material: "Ferro fundido",
+      Ângulo: "50 graus",
+      Saídas: "2 direções",
+      Aplicação: "Sistemas de tubulação",
+    },
+    sizes: [
+      {
+        diameter: "200mm",
+        image: "/bifurcada50-200.jpeg",
+        additionalImages: [
+          "/bifurcada50-200-2.jpeg",
+          "/bifurcada50-200-3.jpeg",
+          "/bifurcada50-200-4.jpeg",
+        ],
+      },
+      {
+        diameter: "240mm",
+        image: "/bifurcada50-240.jpeg",
+        additionalImages: [
+          "/bifurcada50-240-2.jpeg",
+          "/bifurcada50-240-3.jpeg",
+          "/bifurcada50-240-4.jpeg",
+        ],
+      },
+      {
+        diameter: "320mm",
+        image: "/bifurcada50-320.jpeg",
+        additionalImages: [
+          "/bifurcada50-320-2.jpeg",
+          "/bifurcada50-320-3.jpeg",
+          "/bifurcada50-320-4.jpeg",
+        ],
+      },
+    ],
   },
 ];
