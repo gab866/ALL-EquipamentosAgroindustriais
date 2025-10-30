@@ -82,7 +82,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Abraçadeira",
+    name: "Presilha",
     image: "/abracadeira-200.jpeg",
     description:
       "Abraçadeira em aço galvanizado para fixação e suporte de tubulações industriais.",
@@ -100,7 +100,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Cone",
+    name: "Redução",
     image: "/cone1.jpeg",
     description:
       "Cone em ferro fundido para redução de diâmetro em sistemas de tubulação industrial.",
@@ -116,7 +116,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "Curva 30°",
+    name: "Curva de Ferro Fundido",
     image: "/curva30-150.jpeg",
     description:
       "Curva de 30 graus em ferro fundido para mudança de direção em sistemas de tubulação industrial.",
@@ -308,7 +308,7 @@ export const products = [
   },
   {
     id: 13,
-    name: "Amortecedor de linha",
+    name: "Amortecedor de linha Balão",
     image: "/amortecedor.jpeg",
     description:
       "Amortecedor em ferro fundido para redução de vibrações em sistemas industriais.",
@@ -320,7 +320,7 @@ export const products = [
   },
   {
     id: 14,
-    name: "Mancal de peneira",
+    name: "Mancais para Máquinas de Limpeza",
     image: "/mancaldepeneira.jpeg",
     description:
       "Mancal de peneira em ferro fundido para suporte e movimentação de peneiras industriais.",
@@ -332,7 +332,7 @@ export const products = [
   },
   {
     id: 15,
-    name: "Excêntrico peneira",
+    name: "Excêntricos para Máquinas de Limpeza",
     image: "/excentricopeneira.jpeg",
     description:
       "Excêntrico de peneira em ferro fundido para movimentação vibratória de peneiras industriais.",
@@ -430,7 +430,7 @@ export const products = [
   },
   {
     id: 21,
-    name: "Grelhas",
+    name: "Grelhas de ferro fundido para fornalhas metálicas",
     image: "/grelhas.jpeg",
     description:
       "Grelhas em ferro fundido para filtragem e separação de materiais em sistemas industriais.",
