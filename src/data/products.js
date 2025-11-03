@@ -513,4 +513,232 @@ export const products = [
       },
     ],
   },
+  {
+    id: 25,
+    name: "Bucha",
+    image: "/bucha.jpeg",
+    description:
+      "Bucha em bronze para redução de atrito e vedação em sistemas mecânicos industriais.",
+    specifications: {
+      Material: "Bronze",
+      Função: "Redução de atrito e vedação",
+      Aplicação: "Sistemas mecânicos",
+    },
+  },
+  {
+    id: 26,
+    name: "Mancal",
+    image: "/mancal.jpeg",
+    description:
+      "Mancal em ferro fundido para suporte e fixação de eixos rotativos em equipamentos industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Suporte e fixação de eixos",
+      Aplicação: "Equipamentos industriais",
+    },
+  },
+  {
+    id: 27,
+    name: "Massa de calafetar",
+    image: "/massacalafetar.jpeg",
+    description:
+      "Massa de calafetar para vedação e reparo de juntas em sistemas de tubulação industrial.",
+    specifications: {
+      Material: "Composto vedante",
+      Função: "Vedação e reparo",
+      Aplicação: "Sistemas de tubulação",
+    },
+    sizes: [
+      {
+        diameter: "Padrão",
+        image: "/massacalafetar.jpeg",
+        additionalImages: [
+          "/massacalafetar-2.jpeg",
+        ],
+      },
+    ],
+  },
+  {
+    id: 28,
+    name: "Rolamentos",
+    image: "/rolamentos.jpeg",
+    description:
+      "Rolamentos de esferas em aço para redução de atrito em equipamentos rotativos industriais.",
+    specifications: {
+      Material: "Aço",
+      Função: "Redução de atrito",
+      Aplicação: "Equipamentos rotativos",
+    },
+    sizes: [
+      {
+        diameter: "Padrão",
+        image: "/rolamentos.jpeg",
+        additionalImages: [
+          "/rolamentos-2.jpeg",
+        ],
+      },
+    ],
+  },
+  {
+    id: 29,
+    name: "Tubos para eixos de helicóides",
+    image: "/tuboseixoshelicoides.jpeg",
+    description:
+      "Tubos em aço carbono para eixos de helicóides em sistemas de transporte de materiais industriais.",
+    specifications: {
+      Material: "Aço carbono",
+      Função: "Eixo de helicóides",
+      Aplicação: "Transporte de materiais",
+    },
+  },
+  {
+    id: 30,
+    name: "Tubos para grãos",
+    image: "/tubosgraos.jpeg",
+    description:
+      "Tubos em aço galvanizado para transporte e armazenamento de grãos em sistemas agroindustriais.",
+    specifications: {
+      Material: "Aço galvanizado",
+      Função: "Transporte e armazenamento",
+      Aplicação: "Sistemas agroindustriais",
+    },
+    sizes: [
+      {
+        diameter: "Padrão",
+        image: "/tubosgraos.jpeg",
+        additionalImages: [
+          "/tubosgraos-2.jpeg",
+        ],
+      },
+    ],
+  },
+  {
+    id: 31,
+    name: "Arruela mancal peneira",
+    image: "/arruelamancalpeneira.jpeg",
+    description:
+      "Arruela em aço galvanizado para fixação e vedação de mancais de peneiras industriais.",
+    specifications: {
+      Material: "Aço galvanizado",
+      Função: "Fixação e vedação",
+      Aplicação: "Peneiras industriais",
+    },
+  },
+  {
+    id: 32,
+    name: "Cabo sensor temperatura",
+    image: "/cabosensortemperatura-5m.jpeg",
+    description:
+      "Cabo sensor de temperatura para monitoramento térmico em sistemas industriais.",
+    specifications: {
+      Material: "Cabo blindado",
+      Função: "Monitoramento de temperatura",
+      Aplicação: "Sistemas industriais",
+    },
+    sizes: [
+      { diameter: "5m", image: "/cabosensortemperatura-5m.jpeg" },
+      { diameter: "15m", image: "/cabosensortemperatura-15m.jpeg" },
+    ],
+  },
+  {
+    id: 33,
+    name: "Emenda para correia transportadora",
+    image: "/emendacorreia.jpeg",
+    description:
+      "Emenda metálica para união e reparo de correias transportadoras industriais.",
+    specifications: {
+      Material: "Aço inoxidável",
+      Função: "União e reparo",
+      Aplicação: "Correias transportadoras",
+    },
+  },
+  {
+    id: 34,
+    name: "Arruela Lisa ZA",
+    image: "/arruelalisaza-3-8.jpeg",
+    description:
+      "Arruela lisa em aço zincado para fixação e distribuição de carga em sistemas mecânicos.",
+    specifications: {
+      Material: "Aço zincado",
+      Função: "Fixação e distribuição de carga",
+      Aplicação: "Sistemas mecânicos",
+    },
+    sizes: [
+      { diameter: "3/8\"", image: "/arruelalisaza-3-8.jpeg" },
+      { diameter: "5/16\"", image: "/arruelalisaza-5-16.jpeg" },
+    ],
+  },
+  {
+    id: 35,
+    name: "Parafuso de caçamba PA CAB",
+    image: "/parafusocacamba-5-16.jpeg",
+    description:
+      "Parafuso de caçamba em aço carbono para fixação de caçambas em elevadores industriais.",
+    specifications: {
+      Material: "Aço carbono",
+      Função: "Fixação de caçambas",
+      Aplicação: "Elevadores industriais",
+    },
+    sizes: [
+      { diameter: "5/16\"", image: "/parafusocacamba-5-16.jpeg" },
+    ],
+  },
+  {
+    id: 36,
+    name: "Porca ZA",
+    image: "/porcaza-3-8.jpeg",
+    description:
+      "Porca sextavada em aço zincado para fixação e união de componentes mecânicos.",
+    specifications: {
+      Material: "Aço zincado",
+      Função: "Fixação e união",
+      Aplicação: "Sistemas mecânicos",
+    },
+    sizes: [
+      { diameter: "3/8\"", image: "/porcaza-3-8.jpeg" },
+      { diameter: "5/16\"", image: "/porcaza-5-16.jpeg" },
+    ],
+  },
+  {
+    id: 37,
+    name: "Porca PA CAB",
+    image: "/porcapacab-5-16.jpeg",
+    description:
+      "Porca especial para caçamba em aço carbono para fixação de caçambas em elevadores industriais.",
+    specifications: {
+      Material: "Aço carbono",
+      Função: "Fixação de caçambas",
+      Aplicação: "Elevadores industriais",
+    },
+    sizes: [
+      { diameter: "5/16\"", image: "/porcapacab-5-16.jpeg" },
+    ],
+  },
+  {
+    id: 38,
+    name: "Rotonível Haste",
+    image: "/rotonivelhaste-150.jpeg",
+    description:
+      "Rotonível com haste para detecção de nível de materiais granulados em silos e reservatórios.",
+    specifications: {
+      Material: "Aço inoxidável",
+      Função: "Detecção de nível",
+      Aplicação: "Silos e reservatórios",
+    },
+    sizes: [
+      { diameter: "150mm", image: "/rotonivelhaste-150.jpeg" },
+    ],
+  },
+  {
+    id: 39,
+    name: "Tampa mancal peneira",
+    image: "/tampamancalpeneira.jpeg",
+    description:
+      "Tampa em ferro fundido para proteção e vedação de mancais de peneiras industriais.",
+    specifications: {
+      Material: "Ferro fundido",
+      Função: "Proteção e vedação",
+      Aplicação: "Peneiras industriais",
+    },
+  },
 ];
