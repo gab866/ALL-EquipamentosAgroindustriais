@@ -602,15 +602,6 @@ export const products = [
       Função: "Transporte e armazenamento",
       Aplicação: "Sistemas agroindustriais",
     },
-    sizes: [
-      {
-        diameter: "Padrão",
-        image: "/tubosgraos.jpeg",
-        additionalImages: [
-          "/tubosgraos-2.jpeg",
-        ],
-      },
-    ],
   },
   {
     id: 31,
