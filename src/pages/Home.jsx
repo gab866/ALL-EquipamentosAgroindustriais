@@ -51,7 +51,7 @@ const Home = () => {
               Confiabilidade e eficiência em soluções para o agronegócio.
             </p>
             <Link to="/catalogo" className="btn btn-cta">
-              Ver Catálogo de Produtos
+              Ver Catálogo
             </Link>
           </div>
         </div>
@@ -142,9 +142,17 @@ const Home = () => {
                 </div>
                 <div className="scrolling-carousel">
                   <div className="scrolling-track">
-                    {[...stockImages, ...stockImages, ...stockImages, ...stockImages].map((image, index) => (
+                    {[
+                      ...stockImages,
+                      ...stockImages,
+                      ...stockImages,
+                      ...stockImages,
+                    ].map((image, index) => (
                       <div key={index} className="scrolling-slide">
-                        <img src={image} alt={`Estoque ${(index % stockImages.length) + 1}`} />
+                        <img
+                          src={image}
+                          alt={`Estoque ${(index % stockImages.length) + 1}`}
+                        />
                       </div>
                     ))}
                   </div>
