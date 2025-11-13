@@ -5,6 +5,14 @@ import "./Home.scss";
 const Home = () => {
   const location = useLocation();
 
+  const stockImages = [
+    "/prateleira1.jpeg",
+    "/prateleira2.jpeg",
+    "/prateleira3.jpg",
+    "/prateleira2.jpeg",
+    "/prateleira3.jpg",
+  ];
+
   useEffect(() => {
     const scrollToSection = () => {
       if (window.location.hash === "#sobre") {
@@ -121,18 +129,25 @@ const Home = () => {
           <section className="company-info-section">
             <h2>Nossa Empresa</h2>
             <div className="company-showcase">
-              <div className="showcase-item">
-                <div className="showcase-image">
-                  <img src="/prateleira3.jpg" alt="Instalações da ALL" />
-                </div>
+              <div className="showcase-item vertical">
                 <div className="showcase-content">
                   <h3>Nosso Estoque</h3>
                   <p>
-                    Mantemos um amplo estoque de equipamentos e peças de reposição
-                    para atendimento imediato. Nossa organização permite
-                    disponibilidade constante dos produtos mais procurados,
-                    garantindo agilidade no atendimento aos nossos clientes.
+                    Mantemos um amplo estoque de equipamentos e peças de
+                    reposição para atendimento imediato. Nossa organização
+                    permite disponibilidade constante dos produtos mais
+                    procurados, garantindo agilidade no atendimento aos nossos
+                    clientes.
                   </p>
+                </div>
+                <div className="scrolling-carousel">
+                  <div className="scrolling-track">
+                    {[...stockImages, ...stockImages, ...stockImages, ...stockImages].map((image, index) => (
+                      <div key={index} className="scrolling-slide">
+                        <img src={image} alt={`Estoque ${(index % stockImages.length) + 1}`} />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
               <div className="showcase-item reverse">
