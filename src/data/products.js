@@ -1,16 +1,19 @@
-export const products = [
+const productsData = [
   {
     id: 1,
     name: "Arruela côncava",
     image: "/arruelaconcava.jpeg",
     description:
-      "Arruela côncava M 10 em aço galvanizado para fixação e vedação.",
+      "Arruela côncava em aço galvanizado para fixação e vedação.",
     specifications: {
-      Rosca: "M 10",
       Material: "Aço galvanizado",
       Tipo: "Côncava",
       Aplicação: "Fixação e vedação",
     },
+    sizes: [
+      { diameter: "M 8", image: "/arruelaconcava.jpeg" },
+      { diameter: "M 10", image: "/arruelaconcava.jpeg" },
+    ],
   },
   {
     id: 2,
@@ -733,3 +736,5 @@ export const products = [
     },
   },
 ];
+
+export const products = productsData.sort((a, b) => a.name.localeCompare(b.name));
